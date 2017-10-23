@@ -1,0 +1,35 @@
+/* global styles */
+*
+	box-sizing: border-box
+body
+	margin: 0
+	font-family: 'Lato', sans-serif
+.container
+	max-width: 900px
+	margin: 0 auto
+.row
+	margin: 0
+.col
+	padding: 0	
+a:link
+	text-decoration: none
+
+/* mixins */
+=border-radius($radius)
+	border-radius:         $radius
+	-webkit-border-radius: $radius
+	-moz-border-radius:    $radius
+	-ms-border-radius:     $radius
+
+=font($size, $weight)
+ 	font-size: $size
+ 	font-weight: $weight
+
+
+ /* HEADER */
+ header
+ 	height: 1072px
+ 	background-image: url(https://i.imgur.com/1tKjNlJ.png)
+ 	background-size: cover
+ 	background-position: center
+ 	display: flex
